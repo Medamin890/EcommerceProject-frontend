@@ -42,7 +42,6 @@ return (
       <Route path="/cart" element={<Cart />}/>
       <Route path="/login" element={<Login />}/>
       <Route path="/contact" element={<Contact />}/>
-      <Route path="/about" element={<About />}/>
       <Route path="/collection/:category?/:subCategory?/:subSubCategory?" element={<Collec toggleModal={toggleModal}/>} />
       <Route path="/place-order" element={<Order />}/>
       <Route path="/verify" element={<Verify />}/>
